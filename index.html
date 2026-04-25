@@ -139,6 +139,44 @@ text-align:center;
 color:#7B61FF;
 border-top:1px solid rgba(123,97,255,0.2);
 }
+/* ===== PREMIUM CARD HOVER ===== */
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.35s ease !important;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.03) !important;
+  box-shadow: 0 20px 40px rgba(123,97,255,0.4) !important;
+  border: 1px solid rgba(123,97,255,0.6) !important;
+}
+
+/* glow effect */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  background: radial-gradient(circle at top left, rgba(123,97,255,0.25), transparent 60%);
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+/* button hover */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(123,97,255,0.4);
+}
 </style>
 </head>
 
