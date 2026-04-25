@@ -1,109 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adopt Media - Ad Ops & Monetization Experts</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body { margin:0; font-family:'Inter', sans-serif; background:#0b0b0b; color:#fff; }
-    .container { max-width:1100px; margin:auto; padding:20px; }
-    header { text-align:center; padding:100px 20px; }
-    h1 { font-size:48px; margin-bottom:10px; }
-    p { color:#bbb; line-height:1.6; }
-    .btn { background:#ff4d00; padding:14px 26px; border-radius:6px; display:inline-block; margin-top:20px; color:#fff; text-decoration:none; }
-    section { padding:60px 20px; }
-    h2 { font-size:32px; margin-bottom:20px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:20px; }
-    .card { background:#111; padding:25px; border-radius:12px; box-shadow:0 0 20px rgba(0,0,0,0.3); }
-    .card h3 { margin-bottom:10px; }
-    footer { text-align:center; padding:40px; border-top:1px solid #222; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adopt Media</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{margin:0;font-family:'Inter',sans-serif;background:#070914;color:#fff;}
+.container{max-width:1100px;margin:auto;padding:20px;}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+}
+
+.logo img{height:55px;}
+
+.nav a{
+color:#7B61FF;
+margin-left:20px;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:100px 20px 60px;
+}
+
+h1{
+font-size:56px;
+line-height:1.2;
+background:linear-gradient(90deg,#7B61FF,#FF7AA2);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+margin-bottom:20px;
+}
+
+p{
+color:#b8bfff;
+max-width:600px;
+margin:auto;
+}
+
+.btn{
+background:linear-gradient(90deg,#7B61FF,#FF7AA2);
+padding:14px 28px;
+border-radius:8px;
+color:#fff;
+text-decoration:none;
+display:inline-block;
+margin-top:30px;
+}
+
+.trust{
+background:#0b0f22;
+padding:18px;
+border-radius:10px;
+text-align:center;
+margin-top:40px;
+color:#7B61FF;
+font-size:14px;
+}
+
+section{padding:60px 0;}
+
+h2{
+text-align:center;
+color:#7B61FF;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:rgba(255,255,255,0.03);
+padding:25px;
+border-radius:12px;
+border:1px solid rgba(123,97,255,0.2);
+}
+
+.stats{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+text-align:center;
+color:#c5c9ff;
+}
+
+.cta{
+background:linear-gradient(90deg,#7B61FF,#FF7AA2);
+padding:40px;
+border-radius:12px;
+text-align:center;
+margin-top:60px;
+}
+
+form{
+max-width:500px;
+margin:0 auto;
+}
+
+input,textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:6px;
+background:#0f1328;
+color:#fff;
+}
+
+button{
+background:linear-gradient(90deg,#7B61FF,#FF7AA2);
+padding:12px 20px;
+border:none;
+color:#fff;
+border-radius:6px;
+cursor:pointer;
+width:100%;
+}
+
+footer{
+padding:40px 0;
+text-align:center;
+color:#7B61FF;
+border-top:1px solid rgba(123,97,255,0.2);
+}
+</style>
 </head>
+
 <body>
 
+<div class="container">
+
 <header>
-  <div class="container">
-    <h1>Scale Publisher Revenue</h1>
-    <p>Direct Campaign Delivery + Ad Ops Consultancy for Publishers & Ad Networks</p>
-    <a href="#contact" class="btn">Get Free Audit</a>
-  </div>
+<div class="logo">
+<!-- EMBEDDED LOGO -->
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABVYAAAJWCAYAAABR...REPLACE_FULL_BASE64_HERE...">
+</div>
+
+<div class="nav">
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</div>
 </header>
 
-<section>
-  <div class="container">
-    <h2>Our Services</h2>
-    <div class="grid">
-
-      <div class="card">
-        <h3>Direct Campaigns</h3>
-        <p>High CPM display and video demand with global advertiser access.</p>
-      </div>
-
-      <div class="card">
-        <h3>Ad Ops Consultancy</h3>
-        <p>Complete setup, troubleshooting, and yield optimization.</p>
-      </div>
-
-      <div class="card">
-        <h3>Programmatic Setup</h3>
-        <p>oRTB integrations, header bidding, and advanced monetization stack.</p>
-      </div>
-
-      <div class="card">
-        <h3>Video Monetization</h3>
-        <p>VAST-based instream and outstream video solutions.</p>
-      </div>
-
-    </div>
-  </div>
+<section class="hero">
+<h1>Cutting Fastest Campaign Delivery Solutions</h1>
+<p>We deliver global demand for all kind of solutions across programmatic, direct campaigns, and advanced monetisation stack.</p>
+<a href="#contact" class="btn">Contact Us</a>
 </section>
 
-<section>
-  <div class="container">
-    <h2>Who We Work With</h2>
-    <div class="grid">
+<div class="trust">
+Global demand. Faster execution. Better revenue outcomes.
+</div>
 
-      <div class="card">
-        <h3>Publishers</h3>
-        <p>Websites, apps, and content platforms looking to scale revenue.</p>
-      </div>
+<section id="services">
+<h2>Complete Monetisation Stack</h2>
 
-      <div class="card">
-        <h3>Ad Networks</h3>
-        <p>Supply onboarding, demand integrations, and infrastructure scaling.</p>
-      </div>
-
-    </div>
-  </div>
+<div class="grid">
+<div class="card"><h3>ORTB</h3><p>Real-time bidding with premium demand.</p></div>
+<div class="card"><h3>VAST</h3><p>High performance video monetisation.</p></div>
+<div class="card"><h3>Direct Campaigns</h3><p>Brand & performance demand.</p></div>
+<div class="card"><h3>Header Bidding</h3><p>Advanced Prebid integrations.</p></div>
+<div class="card"><h3>In-App & Web</h3><p>Monetisation across platforms.</p></div>
+<div class="card"><h3>Fast Delivery</h3><p>Launch in 24–48 hours.</p></div>
+</div>
 </section>
 
-<section>
-  <div class="container">
-    <h2>Why Choose Us</h2>
-    <div class="grid">
+<div class="stats">
+<div><strong>Global</strong><br>Demand Access</div>
+<div><strong>Multi</strong><br>Format Support</div>
+<div><strong>High</strong><br>Fill Rates</div>
+<div><strong>Fast</strong><br>Execution</div>
+</div>
 
-      <div class="card"><p>Direct advertiser demand (not resold inventory)</p></div>
-      <div class="card"><p>Fast setup within 2–5 days</p></div>
-      <div class="card"><p>Transparent reporting & optimization</p></div>
-      <div class="card"><p>Performance-driven monetization strategy</p></div>
-
-    </div>
-  </div>
-</section>
+<div class="cta">
+<h2>Ready to Scale Your Ad Revenue?</h2>
+<p>Let’s build the perfect monetisation strategy.</p>
+<a href="#contact" class="btn">Let’s Talk</a>
+</div>
 
 <section id="contact">
-  <div class="container">
-    <h2>Contact Us</h2>
-    <p>Email: hello@yourdomain.com</p>
-    <p>WhatsApp: +91-XXXXXXXXXX</p>
-    <a href="mailto:hello@yourdomain.com" class="btn">Email Us</a>
-  </div>
+<h2>Contact</h2>
+
+<form action="https://formspree.io/f/yourformid" method="POST">
+<input type="text" name="name" placeholder="Name" required>
+<input type="email" name="email" placeholder="Email" required>
+<textarea name="message" placeholder="Message" required></textarea>
+<button type="submit">Send</button>
+</form>
+
 </section>
 
 <footer>
-  <p>© 2026 Adopt Media. All rights reserved.</p>
+<p>© 2026 Adopt Media</p>
 </footer>
+
+</div>
 
 </body>
 </html>
